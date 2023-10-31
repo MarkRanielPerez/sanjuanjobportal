@@ -1,0 +1,13 @@
+1. Discuss the encryption process of Data Encryption Standard (DES). Give examples in order to discuss it clearly.
+
+Certainly! The Data Encryption Standard (DES) encryption process involves taking a 64-bit plaintext block, applying initial permutation (IP), generating 16 subkeys from a 56-bit key, and then performing 16 rounds of operations on the plaintext, including substitution, permutation, and XOR, using these subkeys to produce a 64-bit ciphertext; for instance, the plaintext "1101101101101101101101101101101101101101101101101101101101101101" becomes "1000010111101000000100110101010000001111000010101011010000000000" after encryption.
+
+2. Discuss the encryption process of the Advanced Encryption Standard (AES). Give examples in order to discuss it clearly.
+
+AES is a symmetric-key encryption algorithm that operates on blocks of data, typically 128 bits at a time, using a secret key. It performs multiple rounds of substitution, permutation, and mixing operations to transform the data, making it highly secure. For example, if you wanted to encrypt the text "HELLO" with a secret key, AES would process it through these rounds, producing a ciphertext like "2B7E151628AED2A6." Decrypting this ciphertext requires the same secret key used for encryption, ensuring confidentiality.
+
+3. Discuss the differences and similarities of DES and AES.
+
+DES (Data Encryption Standard) and AES (Advanced Encryption Standard) are both encryption algorithms, but they differ in key length and security; DES uses a 56-bit key and is considered less secure, while AES offers key lengths of 128, 192, or 256 bits, making it more robust and widely used for secure data encryption. 
+ 
+Certainly! In addition to key length, DES and AES differ in their encryption processes: DES uses a Feistel network structure with 16 rounds, while AES employs a substitution-permutation network with a variable number of rounds depending on the key size (10 rounds for AES-128, 12 rounds for AES-192, and 14 rounds for AES-256). This variance in structure and key length makes AES more resistant to modern cryptographic attacks, rendering it the preferred choice for secure data encryption in today's digital landscape.
