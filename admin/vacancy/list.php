@@ -24,7 +24,7 @@
 				  		<th>Duration of Employment</th> 
 				  		<th>Qualification/Work experience</th> 
 				  		<th>Job Description</th> 
-				  		<th>Prefered Sex</th> 
+				  		<!-- <th>Prefered Sex</th>  -->
 				  		<th>Sector of Vacancy</th> 
 				  		<th>Job Status</th> 
 				  		 <th width="10%" align="center">Action</th>
@@ -48,7 +48,7 @@
 				  			echo '<td>' . $result->DURATION_EMPLOYEMENT.'</td>';
 				  			echo '<td>' . $result->QUALIFICATION_WORKEXPERIENCE.'</td>';
 				  			echo '<td>' . $result->JOBDESCRIPTION.'</td>';
-				  			echo '<td>' . $result->PREFEREDSEX.'</td>';
+				  			// echo '<td>' . $result->PREFEREDSEX.'</td>';
 				  			echo '<td>' . $result->SECTOR_VACANCY.'</td>';
 				  			echo '<td>' . $result->JOBSTATUS.'</td>';
 				  		echo '<td align="center"><a title="Edit" href="index.php?view=edit&id='.$result->JOBID.'" class="btn btn-primary btn-xs  ">  <span class="fa fa-edit fw-fa"></a>

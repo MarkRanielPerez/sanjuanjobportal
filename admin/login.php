@@ -8,8 +8,8 @@ require_once("../include/initialize.php");
     redirect(web_root."admin/index.php");
   }
   ?>
-   
- <!DOCTYPE html>
+  
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -40,8 +40,18 @@ require_once("../include/initialize.php");
   </div> -->
   <!-- /.login-logo -->
   <div class="login-box-body" style="min-height: 400px;">
-    <h1 class="login-box-msg">Login to JOB JUAN</h1>
-    <hr/>
+  <div class="login-header" style="display: flex; justify-content: center; align-items: center; 
+    flex-direction: column;">
+    <div class="img" style="    display: flex;
+    align-items: center;
+    justify-content: center;">
+    <img src="<?php echo web_root; ?>plugins\home-plugins\img\slides\PESO SAN JUAN LOGO.jpg" alt="showcase image" style="width: 60%;">
+    </div>
+    <div class="message">
+    <h1 class="login-box-msg">Login to <br> JOB JUAN</h1>
+    </div>
+  
+  </div>
     <p><?php check_message(); ?></p>
 
     <form action="" method="post">

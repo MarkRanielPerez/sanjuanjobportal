@@ -102,17 +102,17 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="<?php echo !isset($_GET['q'])? 'active' :''?>"><a href="<?php echo web_root; ?>index.php">Home</a></li> 
-                        <li class="dropdown">
+                        <!-- <li class="dropdown">
                           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Job Search <b class="caret"></b></a>
                           <ul class="dropdown-menu">
                               <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='advancesearch'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=advancesearch">Advance Search</a></li>
                               <li><a href="<?php echo web_root; ?>index.php?q=search-company">Job By Company</a></li>
                               <li><a href="<?php echo web_root; ?>index.php?q=search-function">Job By Function</a></li>
-                              <li><a href="<?php echo web_root; ?>index.php?q=search-jobtitle">Job By Title</a></li>
+                              <li><a href="<?php echo web_root; ?>index.php?q=search-jobtitle">Job By Title</a></li> -->
                          <!--      <li><a href="#">Job for Women</a></li>
                               <li><a href="#">Job for Men</a></li> -->
-                          </ul>
-                       </li> 
+                          <!-- </ul>
+                       </li>  -->
                       <li class="dropdown <?php  if(isset($_GET['q'])) { if($_GET['q']=='category'){ echo 'active'; }else{ echo ''; }}  ?>">
                           <a href="#" data-toggle="dropdown" class="dropdown-toggle">Popular Jobs <b class="caret"></b></a>
                           <ul class="dropdown-menu">
@@ -144,9 +144,9 @@
                           </ul>
                        </li> 
                         <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='company'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=company">Company</a></li>
-                        <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a href="<?php echo web_root; ?>index.php?q=hiring">Hiring Now</a></li>
+                        <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='hiring'){ echo 'active'; }else{ echo ''; }} ?>"><a href="<?php echo web_root; ?>index.php?q=hiring">Job Vacancies</a></li>
                         <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='About'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=About">About Us</a></li>
-                        <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='Contact'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li>
+                        <!-- <li class="<?php  if(isset($_GET['q'])) { if($_GET['q']=='Contact'){ echo 'active'; }else{ echo ''; }}  ?>"><a href="<?php echo web_root; ?>index.php?q=Contact">Contact</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -202,9 +202,9 @@
           <ul class="link-list">
             <li><a href="<?php echo web_root; ?>index.php">Home</a></li>
             <li><a href="<?php echo web_root; ?>index.php?q=company">Company</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=hiring">Hiring</a></li>
+            <li><a href="<?php echo web_root; ?>index.php?q=hiring">Job Vacancies</a></li>
             <li><a href="<?php echo web_root; ?>index.php?q=About">About us</a></li>
-            <li><a href="<?php echo web_root; ?>index.php?q=Contact">Contact us</a></li>
+            <!-- <li><a href="<?php echo web_root; ?>index.php?q=Contact">Contact us</a></li> -->
           </ul>
         </div>
       </div>

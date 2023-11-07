@@ -187,7 +187,7 @@
         </li> 
         <li class="<?php echo (currentpage() == 'category') ? "active" : false;?>" > 
           <a href="<?php echo web_root ;?>admin/category/">
-            <i class="fa fa-list"></i> <span>Category</span>  
+            <i class="fa fa-list"></i> <span>Sector</span>  
           </a>
         </li> 
        <!--  <li class="treeview">
