@@ -179,7 +179,7 @@ $dash = new Dashboard()
   </section>
   <?php
 try {
-    $pdo = new PDO('mysql:host=localhost;dbname=u429667672_jobjuan', 'u429667672_root', 'JobJuan123');
+    $pdo = new PDO('mysql:host=localhost;dbname=jobjuan', 'root', '');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     $categories = array(
