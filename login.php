@@ -41,7 +41,7 @@
                             </div>
                           </form> 
                           
-                          <a href="#">I forgot my password</a><br>
+                          <!-- <a href="#">I forgot my password</a><br> -->
                           <a href="<?php echo web_root; ?>index.php?q=register" class="text-center">Register a new membership</a>
 
                         </div>

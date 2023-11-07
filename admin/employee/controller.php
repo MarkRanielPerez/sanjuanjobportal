@@ -74,7 +74,7 @@ switch ($action) {
 					redirect("index.php?view=add");
 				}else{
 
-					@$datehired = date_format(date_create($_POST['EMP_HIREDDATE']),'Y-m-d');
+					// @$datehired = date_format(date_create($_POST['EMP_HIREDDATE']),'Y-m-d');
 
 					$emp = New Employee(); 
 					$emp->EMPLOYEEID 		= $_POST['EMPLOYEEID'];

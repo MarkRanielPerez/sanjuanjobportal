@@ -51,7 +51,7 @@
                   <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
-                      "CATEGORY">Category:</label>
+                      "CATEGORY">Sector:</label>
 
                       <div class="col-md-8"> 
                         <select class="form-control input-sm" id="CATEGORY" name="CATEGORY">
@@ -137,7 +137,7 @@
                     </div>
                   </div>  
 
-                 <div class="form-group">
+                 <!-- <div class="form-group">
                     <div class="col-md-8">
                       <label class="col-md-4 control-label" for=
                       "PREFEREDSEX">Prefered Sex:</label> 
@@ -150,7 +150,7 @@
                         </select>
                       </div>
                     </div>
-                  </div>  
+                  </div>   -->
 
                   <div class="form-group">
                     <div class="col-md-8">

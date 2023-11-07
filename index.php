@@ -35,10 +35,6 @@ switch ($view) {
         $title="Register New Member";	
 		$content='register.php';		
 		break;
-	case 'Contact' :
-        $title='Contact Us';	
-		$content='Contact.php';		
-		break;	
 	case 'About' :
         $title='About Us';	
 		$content='About.php';		

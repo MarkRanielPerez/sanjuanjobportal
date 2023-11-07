@@ -5,7 +5,8 @@
 		<div class="container">
 			<div class="row showcase-section">
 				<div class="col-md-6">
-					<!-- <img src="<?php echo web_root; ?>plugins\home-plugins\img\slides\PESO SAN JUAN LOGO.jpg" alt="showcase image"> -->
+					<img src="<?php echo web_root; ?>plugins\home-plugins\img\slides\PESO SAN JUAN LOGO.jpg" alt="showcase image" style="width: 40%;left: 47%;
+    position: absolute;">
 				</div>
 				<div class="col-md-6">
 					<div class="about-text">
