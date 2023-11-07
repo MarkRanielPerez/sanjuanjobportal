@@ -118,7 +118,7 @@ global $mydb;
 <div class="col-sm-12 content-footer">
 <p><i class="fa fa-paperclip"></i>  Attachment Files</p>
 	<div class="col-sm-12 slider">
-		 <h3>Download Resume <a href="<?php echo web_root.'applicant/'.$attachmentfile->FILE_LOCATION; ?>">Here</a></h3>
+		 <h3>Download Resume <a href="<?php echo web_root.'applicant/'.$attachmentfile->FILE_LOCATION; ?>" download>Here</a></h3>
 	</div> 
 
 	<div class="col-sm-12">
